@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Personal Home Page  2.0</title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- =================
+  WRITE YOUR HTML HERE
+
+You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
+   ===================
+-->
+
+<!--- All the tests are red! You have to make them green. 
+
+Q How do you make the tests pass?
+A Meet the requirements!
+
+Make the first test pass by adding a <header> </header>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My personal website</title>
+</head>
+<body>
+<header class="c-site-header">
+  <div class="hero">
+    <nav aria-label="Main Site Links.">
+   
+      <img class="logo" src="https://i.pinimg.com/originals/06/bc/e8/06bce81285badba0c3becd273ca67f95.png" alt="website_logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about_me">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#a_little_video">Video</a></li>
+      </ul>
+    </nav>
+  
+
+      <div class="details">
+        <h1> Hi, I am Marvin <span> Marshall. </span></h1>
+        <p> I am an elite trading specialiast that wants to show you how you can automate
+        <br>  your trading with my systematically 
+              designed
+        <br>  trading alogrithim software.</p>
+       <a href="#">DOWNLOAD MY LATEST NEWS LETTER</a>
+      </div>
+       
+     
+      <div class="images">
+        <img src="https://i.gifer.com/9lZ7.gif" alt="shape">
+      </div>
+    </div>
+   <br>
+  <br>
+  <div id="speak_button">
+    <br>
+    <p id="button_text"> You can type some text in the box and once you press speak, your computer will speak out the text.<p>
+    <input id="text" type="text">
+    <button id="button">Speak</button>
+  </div>
+  <br>
+  <br>
+</header> 
+    <!--- about me section start-->
+
+  <main>
+    <section class="about">
+      <div class="main">
+      <img src="https://thumbs.gfycat.com/LeadingWarlikeFruitfly-max-1mb.gif" alt="man_at_trading_station">
+      <div class="about_text" >
+        <h1 id="about_me">About Me.</h1>
+          <p>I am from Cape Town, South Africa and I have been trading on the exchange market since 2016. I was introduce to the field by a close friend who was also trading at the time. I had a great interest in the field and wanted to know more. Over months of learning the skill, I became very frustated with myself due to the fact that I have learned all the concepts required, however, I have been unsucessful more often than not because I was not emotionally equiped to make the correct decisions. I then decided to find a way to automate the entire process in such a way that removes any emotional intereference from myself. I have since learned how to code and build algorithmic trading robots that can assist you in making the correct decisions with no hassle of the emotional factors.</p>
+     <br>
+     </div> 
+    </div>       
+   </section>  
+  </main>
+ <!--About me setion ends-->
+    
+ <!--Services setion start-->
+ <div class="service">
+   <div class="title">
+      <h2 id="services">Services</h2>
+     
+        <div class="box">
+          <div class="card">
+            <h4>Signal Service</h4>
+              <div class="pra">
+                <p> If you have no free time, but would love to trade on the exchange market, I can show you the way by sending you daily signals which indicates when you should buy or sell a given asset.</p>
+                </div>
+                  </div>    
+                    <div class="card">
+                      <h4>Algorithm Trading Solution</h4>
+                        <div class="pra">
+                          <p> If you struggle with making trading decisions, our high-end algorithmic trading robot can automate your trading for you. I design all of the features to your trading style and market conditions best suited for you. This is done by using a programming language called Python</p>
+              </div>
+            </div>
+          <div class="card">
+          <h4>Coaching And Mentoring</h4>
+          <div class="pra">
+          <p> If you would like to learn how to manually analyze the market and also make trading decisions based on your analysis, I could assist you and teach you on how to do that.</p>
+            </div>
+          </div>   
+         </div>
+        </div>
+       </div> 
+ 
+ <!--Service section end-->
+  
+  <!-- Income and expenses example-->
+  <section id="income_calculator">
+  <div>
+    <h2 class="income_text"> To give you an idea of what we do with code, here is an income and expenses calculator you could use.</h2>
+    <br>
+    <br>
+  <p class="calc_text" > Enter your earnings and expenses below</p>
+    <br>
+    <br>
+    <div class="calculator">
+<input id="enter_num">
+      <br>
+<button id="add">Add</button>
+      <br>
+      <br>
+<div id="display">
+<p>Earnings <span id="positive-number"></p>
+<ul id="earnings-list">
+</ul>
+<p>Expenses <span id="negative-number"></p>
+<ul id="expenses-list">
+</ul>
+<p>Balance <span id="sum"></p>
+      </div>
+</div>
+  </div>
+  </section>
+    
+ <!--Video section start-->
+ 
+  <section class="video">
+      <div class="video_clip">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1J4bp9WBIGQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="about_text">
+        <footer class="c-site-footer">
+        <h1 id="a_little_video">A little video for you.</h1>
+          <p>I have added a little video for you down below that can explain more on what it is that a robot does. </p>
+     <br>
+          </footer>
+     </div>
+    </div>  
+    </section>
+  
+  <div id="comment_section">
+    <h3 id="comment_text">If you would like to drop a comment or suggestion, please leave me a note below.</h3>
+    
+ 
+<input id="input_comment" type="text">
+<br>
+<br>
+<button id="push_comment"> Add Comment</button>
+
+<br>
+
+<ul id="list"></ul>
+</ul>
+  </div>
+  
+    </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Your test console.
+Don't delete!-->
+<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
+</aside>
+<!-- partial -->
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
